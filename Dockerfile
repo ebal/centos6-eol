@@ -12,7 +12,8 @@ COPY RPM-GPG-KEY-CentOS-SIG-SCLo /etc/pki/rpm-gpg/
 RUN rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
 
 # Install c++
-RUN yum -y install rpm-build epel-release devtoolset-7-gcc-c++
+RUN yum -y install devtoolset-7-gcc-c++
 
 # Clean up
 RUN yum clean all && rm -rf /var/cache/yum
+
