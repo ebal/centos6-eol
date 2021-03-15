@@ -1,3 +1,3 @@
-# CentOS 6.x - EOL
+# CentOS 6.10 - EOL
 
-CentOS 6.x Container with Vault repositories
+CentOS 6.10 Container with Vault repositories and devtoolset-7
